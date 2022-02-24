@@ -11,7 +11,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.range = exports.harvestBlock = void 0;
 // @ts-check
-require("@polkadot/api-augment");
+require("@polkadot/api-augment/kusama");
 const api_1 = require("@polkadot/api");
 const wsNode = 'wss://kusama-rpc.polkadot.io';
 const startBlock = 11404470;

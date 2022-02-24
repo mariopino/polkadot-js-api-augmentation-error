@@ -1,5 +1,5 @@
 // @ts-check
-import '@polkadot/api-augment';
+import '@polkadot/api-augment/kusama';
 import { ApiPromise, WsProvider } from '@polkadot/api';
 
 const wsNode = 'wss://kusama-rpc.polkadot.io';
